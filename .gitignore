@@ -1,0 +1,86 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.log
+
+# ======================
+# Virtual Environment
+# ======================
+venv/
+env/
+ENV/
+.venv/
+
+# ======================
+# OS / Editor Files
+# ======================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# ======================
+# Build / Dist
+# ======================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ======================
+# Cache Folders
+# ======================
+.cache/
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+.ipynb_checkpoints/
+
+# ======================
+# Environment / Secrets
+# ======================
+.env
+.env.local
+*.env
+credentials.json
+serviceAccountKey.json
+firebase_key.json
+*.pem
+*.key
+*.crt
+*.token
+.gcloud/
+
+
+# If you want to keep ONLY specific model files, remove the .json line above.
+# Example: !models/xgb_ranker_model.json
+
+# ======================
+# Render / Docker
+# ======================
+*.dockerignore
+node_modules/
+npm-debug.log
+
+# ======================
+# PyTorch / Transformer Cache
+# ======================
+~/.cache/torch/
+~/.cache/huggingface/
+*.pt
+*.pth
+
+# ======================
+# Notebook Artifacts
+# ======================
+*.ipynb_checkpoints/
